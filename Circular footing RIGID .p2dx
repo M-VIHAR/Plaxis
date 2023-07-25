@@ -1,0 +1,58 @@
+﻿##~ running Plaxis2DXInput.exe 20.0.0.119
+_initializerectangular SoilContour 0 0 5 4
+_setproperties "Title" "Circular footing" "Company" "BITS PILANI HYD CAMPUS" "Comments" "" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "UnitTemperature" "K" "UnitEnergy" "kJ" "UnitPower" "kW" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "UseTemperatureDepWaterPropsTable" False "ModelType" "Axisymmetry" "ElementType" "15-Noded"
+_borehole 0
+_soillayer 0
+_set Soillayer_1.Zones[0].Top 4
+_soilmat "Comments" "" "Metadata" "" "MaterialName" "Sand" "Colour" 15262369 "MaterialNumber" 0 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 2 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.5 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 487500 "VolumetricSpecificStorage" 2.05128205128205E-5 "DrainageConductivity" 0 "Eref" 13000 "Eoed" 17500 "Einc" 0 5000 0.3 30 1 0 0 0 0 17 20 0.262350700161121 0.262350700161121 1 0.262350700161121 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.5 0.5 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 13 77 0.317836603880988 0 0 0 0 0 0
+_set Soillayer_1.Soil.Material Sand
+_set Borehole_1.Head 2
+_gotostructures
+_linedispl (0 4) (1 4)
+_set Line_1.LineDisplacement.Displacement_x "Fixed"
+_set Line_1.LineDisplacement.uy_start -0.05
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_viewmesh
+_gotoflow
+_gotostructures
+_line (0 2) (5 2)
+_mergeequivalents Geometry
+_gotoflow
+_gotomesh
+_mesh 0.06
+_gotoflow
+_set (WaterConditions_1_1.Conditions) InitialPhase "Dry"
+_gotostages
+_phase InitialPhase
+_set Model.CurrentPhase Phase_1
+_activate (Line_1_1) Phase_1
+_calculate
+_view Phase_1
+_set Model.CurrentPhase InitialPhase
+_set Model.CurrentPhase Phase_1
+_set Model.CurrentPhase InitialPhase
+_set Model.CurrentPhase Phase_1
+_set Model.CurrentPhase InitialPhase
+_set Model.CurrentPhase Phase_1
+_activate (Line_1_1) Phase_1
+_set Model.CurrentPhase InitialPhase
+_deactivate (Line_1_1) InitialPhase
+_set (InitialPhase.ShouldCalculate Phase_1.ShouldCalculate) True
+_calculate
+_view InitialPhase
+_activate (LineDisplacement_1_1) InitialPhase
+_deactivate (LineDisplacement_1_1) InitialPhase
+_set Model.CurrentPhase Phase_1
+_set Model.CurrentPhase InitialPhase
+_set Model.CurrentPhase Phase_1
+_activate (Line_1_1) Phase_1
+_set Model.CurrentPhase InitialPhase
+_set Model.CurrentPhase Phase_1
+_activate (Line_1_1) Phase_1
+_set (InitialPhase.ShouldCalculate Phase_1.ShouldCalculate) True
+_calculate
+_view Phase_1
+_gotomesh
+_gotostages

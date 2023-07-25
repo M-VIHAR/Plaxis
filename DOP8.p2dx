@@ -1,0 +1,310 @@
+﻿##~ running Plaxis2DXInput.exe 21.1.0.479
+_initializerectangular SoilContour 0 0 16.83 3
+_setproperties "Title" "DOP1" "Company" "BITS, Pilani Hyderabad Campus" "Comments" "" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "UnitTemperature" "K" "UnitEnergy" "kJ" "UnitPower" "kW" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "UseTemperatureDepWaterPropsTable" False "ModelType" "Plane strain" "ElementType" "15-Noded"
+_borehole 8
+_undo
+_borehole 0
+_soillayer 0
+_soilmat "Comments" "" "Metadata" "" "MaterialName" "Clay" "Colour" 15262369 "MaterialNumber" 0 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "UnfrozenWaterContent" 0 "TableUnfrozenWaterContent" "[]" "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.5 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 749999.999999999 "VolumetricSpecificStorage" 1.33333333333333E-5 "SolidThermalExpansionTotal" 0 "DrainageConductivity" 0 "Eref" 20000 "Eoed" 26923.0769230769 "Vs" 64.7480323431353 "Vp" 121.132476747885 "Einc" 0 7692.30769230769 0.3 30 20 0 0 0 0 18 22 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.5 0.5 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_set Soillayer_1.Soil.Material Clay
+_gotostructures
+_plate (0 0) (6 0)
+_undo
+_plate (-6 0) (6 0)
+_plate Point_1 (-6 -3)
+_plate Point_3 (14 -3)
+_plate Point_4 (14 -2)
+_plate Point_5 (11 -2)
+_plate Point_6 Point_2
+_set Point_4.x 16.83
+_delete (Line_4)
+_plate Point_4 (17 -3)
+_undo
+_undo
+_undo
+_undo
+_set Point_4.x 16.83
+_delete (Line_4)
+_plate Point_4 (16.808883897233198 -2.2749034247554913)
+_plate Point_7 (15.089425269203208 -2.2749034247554913)
+_plate Point_8 Point_2
+_delete (Line_5)
+_delete (Point_6)
+_delete (Point_5)
+_delete (Line_6 Line_3 Line_4 Line_7 Line_1 Line_2)
+_delete (Point_1 Point_2 Point_3 Point_4 Point_7 Point_8)
+_plate (0 0) (0 3)
+_plate Point_2 (12 3)
+_plate Point_1 (17 0)
+_set Point_4.x 16.83
+_plate Point_4 (17 1)
+_plate Point_5 (15 1)
+_plate Point_6 Point_3
+_undo
+_undo
+_undo
+_undo
+_undo
+_undo
+_undo
+_polygon (0 0) (17 0) (17 1) (16 1) (13 3) (0 3)
+_set Polygon_1.Points[1].x 16.83
+_set Polygon_1.Points[2].x 16.86
+_set Polygon_1.Points[2].y 0.5
+_set Polygon_1.Points[3].x 16.83
+_undo
+_set Polygon_1.Points[2].x 16.83
+_set Polygon_1.Points[3].x 16.33
+_set Polygon_1.Points[3].y 0.5
+_set Polygon_1.Points[4].x 12
+_set Polygon_1.Soil.Material Clay
+_lineload (3 3) (4 3)
+_lineload (5 3) (7 3)
+_undo
+_lineload (6 3) (7 3)
+_set Line_2.LineLoad.qy_start -2
+_set Line_2.LineLoad.qy_start -10
+_set Line_2.LineLoad.LineLoad.qy_start -10
+_set Line_1.LineLoad.qy_start -10
+_gotosoil
+_mergeequivalents Geometry
+_gotomesh
+_gotostructures
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_viewmesh
+_gotostructures
+_set Line_2.LineLoad.LineLoad.qy_start 0
+_mergeequivalents Geometry
+_gotomesh
+##~ running Plaxis2DXInput.exe 21.1.0.479
+_gotostructures
+_mergeequivalents Geometry
+_gotomesh
+_gotoflow
+_gotomesh
+_gotoflow
+_gotostages
+_phase InitialPhase
+_set Model.CurrentPhase Phase_1
+_gotoflow
+_gotosoil
+_gotostructures
+_mergeequivalents Geometry
+_gotomesh
+_gotostructures
+_gotosoil
+_gotostructures
+_set Polygon_1.Soil.WaterConditions.Conditions "Dry"
+_mergeequivalents Geometry
+_gotoflow
+_gotostages
+_set Model.CurrentPhase InitialPhase
+_set InitialPhase.DeformCalcType "Gravity loading"
+_gotoflow
+_activate (Soil_2_1) InitialPhase
+_set Model.CurrentPhase Phase_1
+_gotostages
+_phase Phase_1
+_set Model.CurrentPhase Phase_2
+_set Phase_2.DeformCalcType "Safety"
+_gotoflow
+_set Model.CurrentPhase Phase_1
+_activate (Soil_2_1) Phase_1
+_set Model.CurrentPhase Phase_2
+_gotomesh
+_gotoflow
+_gotostages
+_calculate
+_view Phase_2
+##~ running Plaxis2DXInput.exe 21.1.0.479
+_gotostructures
+_set Polygon_1.Points[1].x 26.67
+_set Polygon_1.Points[2].x 26.67
+_set Polygon_1.Points[3].x 26.17
+_sps Clay "Comments" "" "Metadata" "" "MaterialName" "Clay" "Colour" 15262369 "MaterialNumber" 1 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "UnfrozenWaterContent" 0 "TableUnfrozenWaterContent" "[]" "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 749999.999999999 "VolumetricSpecificStorage" 1.33333333333333E-5 "SolidThermalExpansionTotal" 0 "DrainageConductivity" 0 "Eref" 20000 "Eoed" 26923.0769230769 "Vs" 64.7480323431353 "Vp" 121.132476747885 "Einc" 0 7692.30769230769 0.3 10 40 0 0 0 0 18 22 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.82635182233307 0.82635182233307 1 0 2 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_mergeequivalents Geometry
+_gotoflow
+_gotomesh
+_mesh 0.06
+_gotoflow
+_gotostages
+_calculate
+_view InitialPhase
+_save "C:\Users\vihar\Desktop\Project Dop\DOP Files\DOP2.p2dx"
+_gotostructures
+_set Polygon_1.Points[1].x 19.36
+_set Polygon_1.Points[2].x 19.36
+_set Polygon_1.Points[3].x 18.86
+_sps Clay "Comments" "" "Metadata" "" "MaterialName" "Clay" "Colour" 15262369 "MaterialNumber" 1 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "UnfrozenWaterContent" 0 "TableUnfrozenWaterContent" "[]" "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 749999.999999999 "VolumetricSpecificStorage" 1.33333333333333E-5 "SolidThermalExpansionTotal" 0 "DrainageConductivity" 0 "Eref" 20000 "Eoed" 26923.0769230769 "Vs" 64.7480323431353 "Vp" 121.132476747885 "Einc" 0 7692.30769230769 0.3 20 60 0 0 0 0 18 22 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.657979856674331 0.657979856674331 1 0 2 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_gotoflow
+_gotostages
+_calculate
+_view InitialPhase
+_save "C:\Users\vihar\Desktop\Project Dop\DOP Files\DOP3.p2dx"
+_gotostructures
+_set Point_1.x 6
+_set Point_1.y 6
+_undo
+_set Point_4.x 9
+_undo
+_set Point_4.x 8
+_delete (Line_2)
+_delete (Line_1)
+_set Point_2.x 6
+_movepointmagnetic Polygon_1 5 (0 6)
+_movepointmagnetic Polygon_1 4 (12 6)
+_delete (Point_1 Point_2 Point_3)
+_delete (Point_4)
+_lineload (6 6) (8 6)
+_lineload (10 6) (12 6)
+_movepointmagnetic Polygon_1 4 (20 6)
+_movepointmagnetic Polygon_1 4 (18 6)
+_movepointmagnetic Polygon_1 4 (20 6)
+_movepointmagnetic Polygon_1 4 (22 6)
+_set Point_4.x 24
+_delete (Line_2)
+_set Point_4.x 12
+_lineload Point_3 Point_4
+_movepointmagnetic Polygon_1 4 (24 6)
+_movepointmagnetic Polygon_1 1 (24 0)
+_movepointmagnetic Polygon_1 2 (24 0)
+_undo
+_movepointmagnetic Polygon_1 2 (24 1)
+_set Polygon_1.Points[1].x 33.16
+_set Polygon_1.Points[2].x 33.16
+_set Polygon_1.Points[3].x 32.66
+_set Polygon_1.Points[3].y 1
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_gotoflow
+_gotostages
+_calculate
+_save "C:\Users\vihar\Desktop\Project Dop\DOP Files\DOP4.p2dx"
+_gotostructures
+_movepointmagnetic Polygon_1 5 (0 3)
+_movepointmagnetic Polygon_1 5 (0 2)
+_movepointmagnetic Polygon_1 4 (24 3)
+_movepointmagnetic Polygon_1 4 (24 2)
+_movepointmagnetic Polygon_1 5 (0 1)
+_movepointmagnetic Polygon_1 4 (24 1)
+_movepointmagnetic Polygon_1 1 (23 0)
+_movepointmagnetic Polygon_1 3 (24 2)
+_movepointmagnetic Polygon_1 4 (20 3)
+_undo
+_undo
+_undo
+_movepointmagnetic Polygon_1 5 (0 2)
+_movepointmagnetic Polygon_1 5 (0 1.5)
+_movepointmagnetic Polygon_1 4 (24 1.5)
+_delete (Line_1)
+_delete (Line_2)
+_delete (Point_3)
+_delete (Point_4)
+_delete (Point_2)
+_delete (Point_1)
+_lineload (1.5 1.5) (2.0002624715166926 1.5)
+_lineload (4.004093495412008 1.5) (4.5 1.5)
+_set Point_3.x 4
+_movepointmagnetic Polygon_1 4 (7.5 1.5)
+_movepointmagnetic Polygon_1 4 (6 1.5)
+_movepointmagnetic Polygon_1 4 (7.5 1.5)
+_movepointmagnetic Polygon_1 4 (7 1)
+_movepointmagnetic Polygon_1 4 (7 2)
+_movepointmagnetic Polygon_1 4 (7 1)
+_movepointmagnetic Polygon_1 4 (7.5 1.5)
+_set Polygon_1.Points[4].x 7
+_movepointmagnetic Polygon_1 1 (9 0)
+_set Polygon_1.Points[1].x 7
+_set Polygon_1.Points[1].x 9.66
+_set Polygon_1.Points[2].y 0.25
+_set Polygon_1.Points[2].x 9.66
+_set Polygon_1.Points[3].x 9.16
+_set Polygon_1.Points[3].y 0.25
+_sps Clay "Comments" "" "Metadata" "" "MaterialName" "Clay" "Colour" 15262369 "MaterialNumber" 1 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "UnfrozenWaterContent" 0 "TableUnfrozenWaterContent" "[]" "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 749999.999999999 "VolumetricSpecificStorage" 1.33333333333333E-5 "SolidThermalExpansionTotal" 0 "DrainageConductivity" 0 "Eref" 20000 "Eoed" 26923.0769230769 "Vs" 64.7480323431353 "Vp" 121.132476747885 "Einc" 0 7692.30769230769 0.3 10 20 0 0 0 0 18 22 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.82635182233307 0.82635182233307 1 0 2 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_gotoflow
+_gotostages
+_calculate
+_view InitialPhase
+_save "C:\Users\vihar\Desktop\Project Dop\DOP Files\DOP5.p2dx"
+_gotostructures
+_set Polygon_1.Points[1].x 10.93
+_set Polygon_1.Points[2].x 10.93
+_set Polygon_1.Points[3].x 10.43
+_sps Clay "Comments" "" "Metadata" "" "MaterialName" "Clay" "Colour" 15262369 "MaterialNumber" 1 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "UnfrozenWaterContent" 0 "TableUnfrozenWaterContent" "[]" "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 749999.999999999 "VolumetricSpecificStorage" 1.33333333333333E-5 "SolidThermalExpansionTotal" 0 "DrainageConductivity" 0 "Eref" 20000 "Eoed" 26923.0769230769 "Vs" 64.7480323431353 "Vp" 121.132476747885 "Einc" 0 7692.30769230769 0.3 30 60 0 0 0 0 18 22 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.5 0.5 1 0 2 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_mergeequivalents Geometry
+_gotoflow
+_gotomesh
+_mesh 0.06
+_gotoflow
+_gotostages
+_calculate
+##~ running Plaxis2DXInput.exe 21.1.0.479
+_gotostructures
+_set Polygon_1.Points[1].x 9.66
+_set Polygon_1.Points[2].x 9.66
+_set Polygon_1.Points[3].x 9.16
+_sps Clay "Comments" "" "Metadata" "" "MaterialName" "Clay" "Colour" 15262369 "MaterialNumber" 1 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "UnfrozenWaterContent" 0 "TableUnfrozenWaterContent" "[]" "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 749999.999999999 "VolumetricSpecificStorage" 1.33333333333333E-5 "SolidThermalExpansionTotal" 0 "DrainageConductivity" 0 "Eref" 20000 "Eoed" 26923.0769230769 "Vs" 64.7480323431353 "Vp" 121.132476747885 "Einc" 0 7692.30769230769 0.3 20 20 0 0 0 0 18 22 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.657979856674331 0.657979856674331 1 0 2 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_gotoflow
+_gotostages
+_calculate
+##~ running Plaxis2DXInput.exe 21.1.0.479
+_gotomesh
+_mesh 0.06
+_gotostages
+_calculate
+_view InitialPhase
+##~ running Plaxis2DXInput.exe 21.1.0.479
+_gotostructures
+##~ running Plaxis2DXInput.exe 21.1.0.479
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_gotostages
+_calculate
+_view InitialPhase
+##~ running Plaxis2DXInput.exe 21.1.0.479
+_gotostructures
+_set Polygon_1.Points[4].x 22
+_set Polygon_1.Points[5].y 6
+_set Polygon_1.Points[4].y 6
+_set Polygon_1.Points[2].y 1
+_set Polygon_1.Points[3].y 1
+_set Polygon_1.Points[1].x 36.23
+_set Polygon_1.Points[2].x 36.23
+_set Polygon_1.Points[3].x 35.73
+_set Point_1.x 6
+_set Point_1.y 6
+_set Point_2.y 6
+_set Point_2.x 8
+_set Point_3.x 10
+_set Point_3.y 6
+_set Point_4.x 10
+_set Point_4.x 12
+_set Point_4.y 6
+_sps Clay "Comments" "" "Metadata" "" "MaterialName" "Clay" "Colour" 15262369 "MaterialNumber" 1 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "UnfrozenWaterContent" 0 "TableUnfrozenWaterContent" "[]" "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 749999.999999999 "VolumetricSpecificStorage" 1.33333333333333E-5 "SolidThermalExpansionTotal" 0 "DrainageConductivity" 0 "Eref" 20000 "Eoed" 26923.0769230769 "Vs" 64.7480323431353 "Vp" 121.132476747885 "Einc" 0 7692.30769230769 0.3 10 60 0 0 0 0 18 22 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.82635182233307 0.82635182233307 1 0 2 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_gotoflow
+_gotostages
+_calculate
+_view InitialPhase
+##~ running Plaxis2DXInput.exe 21.1.0.479
+_gotomesh
+_viewmesh
+_mesh 0.06
+_gotostages
+_calculate
+_view InitialPhase

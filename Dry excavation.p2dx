@@ -1,0 +1,310 @@
+﻿##~ running Plaxis2DXInput.exe 20.0.0.119
+_initializerectangular SoilContour 0 0 100 30
+_setproperties "Title" "Dry condition" "Company" "BITS PILANI HYD CAMPUS" "Comments" "" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "UnitTemperature" "K" "UnitEnergy" "kJ" "UnitPower" "kW" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "UseTemperatureDepWaterPropsTable" False "ModelType" "Plane strain" "ElementType" "15-Noded"
+_borehole 0
+_soillayer 0
+_soilmat "Comments" "" "Metadata" "" "MaterialName" "Silt" "Colour" 15262369 "MaterialNumber" 0 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 1 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 2 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 1 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.5 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.986622073578595 "KwRefN" 737499.999999999 "VolumetricSpecificStorage" 1.35593220338983E-5 "DrainageConductivity" 0 "Eref" 18000 "Eoed" 20000 "Einc" 0 7500 0.2 30 1 0 0 0 0 16 20 0.0227232 0.0227232 0.65 0.0227232 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.65 0 0 0 0 0 0 0 1 0 0.5 0.5 1 0 0 -1.2 -8.98 0 0 10000 1 0.0232558139534884 0.83 1.2539 -0.5884 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 74 7 0.0181063515403239 0 0 0 0 0 0
+_set Soillayer_1.Soil.Material Silt
+_set Soillayer_1.Zones[0].Top 30
+_set Soillayer_1.Zones[0].Bottom 27
+_soillayer 0
+_soilmat "Comments" "" "Metadata" "" "MaterialName" "Sand" "Colour" 10676870 "MaterialNumber" 0 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 1 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 2 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 1 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.5 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.986622073578595 "KwRefN" 1106250 "VolumetricSpecificStorage" 9.03954802259888E-6 "DrainageConductivity" 0 "Eref" 27000 "Eoed" 30000 "Einc" 0 11250 0.2 34 0 4 0 0 0 17 20 7.128 7.128 0.7 7.128 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0 0 0 0 0 0 0 1 0 0.440807096529253 0.440807096529253 1 0 0 -0.5 -1.01 0 0 10000 1 0.104651162790698 14.5 2.68 0.5 0 1 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 4 92 0 0 0 0 0 0 0
+_set Soillayer_2.Soil.Material Sand
+_set Soillayer_2.Zones[0].Bottom 15
+_soillayer 0
+_soilmat "Comments" "" "Metadata" "" "MaterialName" "loam" "Colour" 10283244 "MaterialNumber" 0 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "InterfaceStiffness" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 1 "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 2 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 3 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 1 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.5 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.986622073578595 "KwRefN" 295000 "VolumetricSpecificStorage" 3.38983050847458E-5 "DrainageConductivity" 0 "Eref" 7200 "Eoed" 8000 "Einc" 0 3000 0.2 29 5 0 0 0 0 17 19 0.249696 0.249696 1 0.249696 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.515190379753663 0.515190379753663 1 0 0 -0.6 -1.87 0 0 10000 1 0.181395348837209 3.6 1.56 0.5 0 1 203 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 40 40 0 0 0 0 0 0 0
+_set Soillayer_3.Soil.Material Loam
+_set Soillayer_3.Zones[0].Bottom 0
+_set Borehole_1.Head 23
+_gotostructures
+_gotosoil
+_gotostructures
+_gotosoil
+_gotostructures
+_line (0 24) (100 23)
+_undo
+_line (0 23) (100 23)
+_plate (40 30) (40 14)
+_plate (60 30) (60 14)
+_platemat "Comments" "" "Metadata" "" "MaterialName" "D walls" "Colour" 16711680 "MaterialNumber" 0 "Elasticity" 0 "IsIsotropic" True "PreventPunching" False "ElastoplasticMK" "M-K diagram" "ElastoplasticMKTable" "[0, 0, 1, 1]" "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "EA" 12000000 "EA2" 12000000 "EI" 120000 "nu" 0.15 "d" 0.346410161513775 "w" 8.3 "Mp" 1.0000000000000000E+015 "Np" 1.0000000000000000E+010 "Np2" 1.0000000000000000E+010 "RayleighAlpha" 0 "RayleighBeta" 0 "Gref" 15061311.3701642
+_set (Line_2.Plate.Material Line_3.Plate.Material) DWalls
+_line (40 23) (60 23)
+_line (40 20) (60 20)
+_delete (Line_5)
+_delete (Point_9)
+_delete (Point_10)
+_line (0 20) (100 20)
+_line (40 20) (60 20)
+_n2nanchor (40 27) (31 18)
+_set Point_14.y 21
+_n2nanchor (31 18) (31 17)
+_delete (Point_16)
+_delete (Point_15)
+_n2nanchor Point_7 (32 18)
+_set Point_15.x 31
+_set Point_15.y 17
+_n2nanchor (60 27) (69 19)
+_n2nanchor Point_8 (67 16)
+_set Point_18.x 69
+_set Point_18.y 17
+_set Point_17.y 21
+_anchormat "Comments" "" "Metadata" "" "MaterialName" "Anchors" "Colour" 0 "MaterialNumber" 0 "Elasticity" 0 "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "A" 0 "Lspacing" 2.5 "EAPerLength" 200000 "FMaxTensPerLength" 4.0000000000000000E+011 "FMaxCompPerLength" 4.0000000000000000E+011 "EA" 500000 "FMaxTens" 1.0000000000000000E+012 "FMaxComp" 1.0000000000000000E+012 "FResidualTens" 1.0000000000000000E+012 "FResidualComp" 1.0000000000000000E+012 "FResidualTensPerLength" 4.0000000000000000E+011 "FResidualCompPerLength" 4.0000000000000000E+011
+_set (Line_7.NodeToNodeAnchor.Material Line_8.NodeToNodeAnchor.Material Line_9.NodeToNodeAnchor.Material Line_10.NodeToNodeAnchor.Material) Anchors
+_embeddedbeamrow Point_14 (28 19)
+_embeddedbeamrow (32 17.666666666666668) (29 16)
+_embeddedbeamrow (67.5 22) (71 19)
+_embeddedbeamrow (67.5 18) (71 16)
+_set Point_20.x 31
+_set Point_20.y 17
+_set Point_21.x 2
+_set Point_21.y 15
+_set Point_21.x 28
+_delete (Point_17)
+_undo
+_set Point_22.x 69
+_set Point_22.y 21
+_set Point_23.x 72
+_set Point_24.x 69
+_set Point_24.y 1727
+_set Point_24.y 17
+_set Point_25.x 72
+_set Point_25.y 15
+_embeddedbeammat "Comments" "" "Metadata" "" "MaterialName" "embedded beams" "Colour" 9392839 "MaterialNumber" 0 "Elasticity" 0 "BeamType" 0 "PredefinedBeamType" 0 "SkinResistance" 0 "SkinResistanceMultiLinear" "Axial skin resistance table" "SkinResistanceTable" "[0, 0, 1, 1]" "ElastoplasticMK" "M-K diagram" "ElastoplasticMKTable" "[0, 0, 1, 1]" "DefaultStiffnessFactors" True "LateralResistance" 0 "LateralResistanceMultiLinear" "Lateral resistance table" "LateralResistanceTable" "[0, 0, 1, 1]" "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "Height" 0 "Width" 0.3 "Diameter" 0.3 "Thickness" 0 "MpPerPile" 0 "NpPerPile" 0 "E" 7070000 "w" 0 "Size" 0.3 "A" 0.0706858347057703 "Iyy" 0.000397607820219958 "Izz" 0.000397607820219958 "Iyz" 0 "Tstart" 400 "Tend" 400 "Tmax" 1.0000000000000000E+012 "Fmax" 0 "nu" 0 "RayleighAlpha" 0 "RayleighBeta" 0 "I" 0.000397607820219958 "Lspacing" 2.5 "AxialSkinStiffnessFactor" 0.509713273454137 "LateralSkinStiffnessFactor" 0.509713273454137 "PileBaseStiffnessFactor" 5.09713273454137 "TLateralStart" 0 "TLateralEnd" 0
+_set (Line_11.EmbeddedBeamRow.Material Line_12.EmbeddedBeamRow.Material Line_13.EmbeddedBeamRow.Material Line_14.EmbeddedBeamRow.Material) EmbeddedBeams
+_group (Line_7.NodeToNodeAnchor Line_8.NodeToNodeAnchor Line_9.NodeToNodeAnchor Line_10.NodeToNodeAnchor)
+_delete UserFeatureHelper Line_10.NodeToNodeAnchor
+_delete UserFeatureHelper Line_9.NodeToNodeAnchor
+_delete UserFeatureHelper Group_1
+_lineload (28 30) (38 30)
+_set Line_15.LineLoad.qy_start -10
+_group (Line_8 Line_12 Line_11 Line_7 Line_10 Line_9 Line_14 Line_13 Line_5)
+_delete Geometry Line_5
+_undo
+_undo
+_group (Line_11 Line_7 Line_8 Line_12 Line_9 Line_13 Line_10 Line_14)
+_mergeequivalents (Line_12 Line_8)
+_undo
+_undo
+_group (Line_7 Line_11 Line_9 Line_13 Line_8 Line_12 Line_10 Line_14)
+_set (Line_14.EmbeddedBeamRow.ConnectionPoint Line_12.EmbeddedBeamRow.ConnectionPoint) "Bottom"
+_set (Line_14.EmbeddedBeamRow.ConnectionPoint Line_12.EmbeddedBeamRow.ConnectionPoint) "Top"
+_group (Line_14.EmbeddedBeamRow Line_12.EmbeddedBeamRow)
+_group (Line_14 Line_8 Line_12 Line_10)
+_undo
+_delete Geometry Group_1
+_undo
+_undo
+_undo
+_undo
+_undo
+_undo
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_viewmesh
+_gotostructures
+_n2nanchor Line_7
+_delete (Line_8)
+_delete (Line_7)
+_delete (Line_9 Line_10)
+_n2nanchor Point_13 Point_14
+_n2nanchor Point_7 Point_15
+_n2nanchor Point_16 Point_17
+_n2nanchor Point_8 Point_18
+_set Line_10.NodeToNodeAnchor.Material Anchors
+_set Line_9.NodeToNodeAnchor.Material Anchors
+_set Line_7.NodeToNodeAnchor.Material Anchors
+_set Line_8.NodeToNodeAnchor.Material Anchors
+_group (Line_8 Line_7 Line_11 Line_12 Line_9 Line_13 Line_10 Line_14)
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_viewmesh
+_gotostructures
+_posinterface (Line_2)
+_posinterface (Line_3)
+_neginterface (Line_3)
+_neginterface (Line_2)
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_viewmesh
+_gotostructures
+_set Point_1.x 40
+_set Point_2.x 60
+_set Point_9.x 40
+_set Point_10.x 60
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_viewmesh
+_gotoflow
+_gotostructures
+_line (0 23) (100 23)
+_mergeequivalents Geometry
+_gotomesh
+_gotoflow
+_set (WaterConditions_2_1.Conditions WaterConditions_1_1.Conditions WaterConditions_1_2.Conditions WaterConditions_2_2.Conditions WaterConditions_2_3.Conditions WaterConditions_1_3.Conditions) InitialPhase "Dry"
+_gotostages
+_save "C:\Users\vihar\Desktop\Project Dop\Dry excavation.p2dx"
+_set InitialPhase.PorePresCalcType "Steady state groundwater flow"
+_set InitialPhase.PorePresCalcType "Phreatic"
+_phase InitialPhase
+_set Model.CurrentPhase Phase_1
+_set Phase_1.Identification "construction of walls"
+_activate (LineLoad_1_1) Phase_1
+_set LineLoad_1_1.qy_start Phase_1 -10
+_activate (Line_2_4 Line_2_5 Line_2_3 Line_2_2 Line_8_1 Line_2_1 Line_3_1 Line_3_2 Line_3_3 Line_3_4 Line_3_5) Phase_1
+_phase Phase_1
+_set Model.CurrentPhase Phase_2
+_set Phase_2.Identification "1st excavation"
+_deactivate (BoreholePolygon_1_2) Phase_2
+_gotostructures
+_delete Geometry Group_1
+_n2nanchor Point_13 Point_14
+_set Line_6.NodeToNodeAnchor.Material Anchors
+_n2nanchor Point_16 Point_17
+_set Line_7.NodeToNodeAnchor.Material Anchors
+_n2nanchor Point_1 Point_15
+_set Line_8.NodeToNodeAnchor.Material Anchors
+_n2nanchor Point_2 Point_18
+_set Line_9.NodeToNodeAnchor.Material Anchors
+_embeddedbeamrow Point_14 Point_19
+_set Line_10.EmbeddedBeamRow.Material EmbeddedBeams
+_embeddedbeamrow Point_17 Point_23
+_set Line_11.EmbeddedBeamRow.Material EmbeddedBeams
+_embeddedbeamrow Point_15 Point_21
+_set Line_12.EmbeddedBeamRow.Material EmbeddedBeams
+_embeddedbeamrow Point_18 Point_25
+_set Line_13.EmbeddedBeamRow.Material EmbeddedBeams
+_group (Line_6 Line_10 Line_7 Line_11)
+_group (Line_8 Line_12 Line_9 Line_13)
+_rename Group_2 "Bottom_anchors"
+_rename Group_1 "Top_anchors"
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_viewmesh
+_gotoflow
+_gotostages
+_set Model.CurrentPhase Phase_1
+_set Model.CurrentPhase Phase_2
+_phase Phase_2
+_set Model.CurrentPhase Phase_3
+_set Phase_3.Identification "Installation of top anchors"
+_activate (NodeToNodeAnchor_1_1 NodeToNodeAnchor_2_1) Phase_3
+_set (NodeToNodeAnchor_1_1.AdjustPrestress NodeToNodeAnchor_2_1.AdjustPrestress) Phase_3 True
+_set (NodeToNodeAnchor_1_1.PrestressForce NodeToNodeAnchor_2_1.PrestressForce) Phase_3 500
+_phase Phase_3
+_set Model.CurrentPhase Phase_4
+_set Phase_4.Identification "2nd Excavation"
+_deactivate (BoreholePolygon_2_2) Phase_4
+_activate (EmbeddedBeamRow_1_1 EmbeddedBeamRow_2_1) Phase_4
+_phase Phase_4
+_set Model.CurrentPhase Phase_5
+_set Phase_5.Identification "Installation of bottom anchors"
+_activate (NodeToNodeAnchor_3_1 NodeToNodeAnchor_4_1) Phase_5
+_set (NodeToNodeAnchor_3_1.AdjustPrestress NodeToNodeAnchor_4_1.AdjustPrestress) Phase_5 True
+_set (NodeToNodeAnchor_3_1.PrestressForce NodeToNodeAnchor_4_1.PrestressForce) Phase_5 1000
+_phase Phase_5
+_set Model.CurrentPhase Phase_6
+_set Model.CurrentPhase Phase_5
+_activate (EmbeddedBeamRow_3_1 EmbeddedBeamRow_4_1) Phase_5
+_set Model.CurrentPhase Phase_6
+_set Phase_6.Identification "Final excavation"
+_set Phase_6.PorePresCalcType "Steady state groundwater flow"
+_set Model.CurrentPhase Phase_5
+_set Model.CurrentPhase Phase_6
+_set Model.CurrentPhase Phase_5
+_deactivate (EmbeddedBeamRow_3_1 EmbeddedBeamRow_4_1) Phase_5
+_set Model.CurrentPhase Phase_6
+_activate (EmbeddedBeamRow_3_1 EmbeddedBeamRow_4_1) Phase_6
+_deactivate (BoreholePolygon_2_4) Phase_6
+_gotoflow
+_waterlevel (0 23) (40 20) (60 20) (100 23)
+_rename UserWaterLevel_1 "Dewater_level"
+_setglobalwaterlevel Dewater_level Phase_6
+_gotostages
+_selectmeshpoints
+_selectmeshpoints
+_calculate
+_view Phase_6
+_set Model.CurrentPhase Phase_3
+_set Model.CurrentPhase Phase_4
+_deactivate (EmbeddedBeamRow_1_1 EmbeddedBeamRow_2_1) Phase_4
+_set Model.CurrentPhase Phase_3
+_activate (EmbeddedBeamRow_1_1 EmbeddedBeamRow_2_1) Phase_3
+_set Model.CurrentPhase Phase_4
+_set Model.CurrentPhase Phase_3
+_set Model.CurrentPhase Phase_4
+_set Model.CurrentPhase Phase_5
+_set Model.CurrentPhase Phase_4
+_activate (EmbeddedBeamRow_1_1 EmbeddedBeamRow_2_1) Phase_4
+_set Model.CurrentPhase Phase_5
+_activate (EmbeddedBeamRow_3_1 EmbeddedBeamRow_4_1) Phase_5
+_set Model.CurrentPhase Phase_6
+_set Model.CurrentPhase Phase_5
+_set Model.CurrentPhase Phase_4
+_set Model.CurrentPhase Phase_3
+_set Model.CurrentPhase Phase_2
+_set Model.CurrentPhase Phase_1
+_set Model.CurrentPhase InitialPhase
+_set (InitialPhase.ShouldCalculate Phase_1.ShouldCalculate Phase_2.ShouldCalculate Phase_3.ShouldCalculate Phase_4.ShouldCalculate Phase_5.ShouldCalculate Phase_6.ShouldCalculate) True
+_calculate
+_view InitialPhase
+_set Model.CurrentPhase Phase_1
+_set Model.CurrentPhase InitialPhase
+_set Model.CurrentPhase Phase_1
+_set Model.CurrentPhase InitialPhase
+_set Model.CurrentPhase Phase_1
+_set Model.CurrentPhase Phase_2
+_set Model.CurrentPhase Phase_3
+_set Model.CurrentPhase Phase_4
+_set Model.CurrentPhase Phase_5
+_set Model.CurrentPhase Phase_6
+_gotoflow
+_waterlevel (0 23) (41 20) (60 20) (100 23)
+_gotostructures
+_gotosoil
+_gotostructures
+_mergeequivalents Geometry
+_gotomesh
+_gotoflow
+_set Model.CurrentPhase Phase_3
+_set Model.CurrentPhase Phase_4
+_set Model.CurrentPhase Phase_5
+_set Model.CurrentPhase Phase_6
+_set Model.CurrentPhase Phase_5
+_set Model.CurrentPhase Phase_4
+_set Model.CurrentPhase Phase_5
+_gotostages
+_gotoflow
+_set (WaterConditions_2_4.Conditions) Phase_5 "Dry"
+_delete (Dewater_level)
+_delete (UserWaterLevel_1)
+_gotostages
+_set Model.CurrentPhase Phase_6
+_set (InitialPhase.ShouldCalculate Phase_1.ShouldCalculate Phase_2.ShouldCalculate Phase_3.ShouldCalculate Phase_4.ShouldCalculate Phase_5.ShouldCalculate Phase_6.ShouldCalculate) True
+_calculate
+_view Phase_6
+_set Model.CurrentPhase Phase_5
+_set Model.CurrentPhase Phase_6
+_set GroundwaterFlow.BoundaryYMin Phase_6 "Open"
+_set GroundwaterFlow.BoundaryYMax Phase_6 "Closed"
+_set GroundwaterFlow.BoundaryXMax Phase_6 "Closed"
+_set GroundwaterFlow.BoundaryXMin Phase_6 "Closed"
+_set (InitialPhase.ShouldCalculate Phase_1.ShouldCalculate Phase_2.ShouldCalculate Phase_3.ShouldCalculate Phase_4.ShouldCalculate Phase_5.ShouldCalculate Phase_6.ShouldCalculate) True
+_calculate
+_view Phase_6
+_deactivate Dynamics Phase_6
+_deactivate FieldStress Phase_6
+_gotoflow
+_setglobalwaterlevel BoreholeWaterLevel_1 Phase_6
+_set (WaterConditions_2_4.Conditions) Phase_6 "Dry"
+_set (WaterConditions_2_4.Conditions) Phase_6 "Dry"
+_set GroundwaterFlow.BoundaryYMax Phase_6 "Open"
+_set GroundwaterFlow.BoundaryYMin Phase_6 "Closed"
+_set Phase_6.ShouldCalculate True
+_gotostages
+_calculate
+_view Phase_6
